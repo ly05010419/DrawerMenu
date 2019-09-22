@@ -6,5 +6,5 @@ Animation
 
 ## Screenshot
 
-![image](https://github.com/ly05010419/CardAnimation/blob/master/screenshot.gif?raw=true)
+![image](https://github.com/ly05010419/DrawerMenu/blob/master/screenshot.gif?raw=true)
 
