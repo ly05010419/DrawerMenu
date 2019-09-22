@@ -40,17 +40,17 @@ struct MenuView: View {
     
     @Binding var show: Bool
     
-    var menu = [
-        Menu(title: "My Account", icon: "person.crop.circle"),
+    var items = [
+        Menu(title: "Account", icon: "person.crop.circle"),
+        Menu(title: "Profile", icon: "creditcard"),
         Menu(title: "Settings", icon: "gear"),
-        Menu(title: "Billing", icon: "creditcard"),
         Menu(title: "Sign out", icon: "arrow.uturn.down")
     ]
     
     var body: some View {
         
         VStack(alignment: .leading) {
-            ForEach(menu) { item in
+            ForEach(items) { item in
                 MenuRow(image: item.icon, text: item.title)
             }
             Spacer()
